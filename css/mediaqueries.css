@@ -1,0 +1,118 @@
+@media only screen and (max-width: 600px) {
+    .navbar_ {
+        display: flex;
+        justify-content: space-between;
+        background-color: #ca4172;
+        height: 80px;
+        box-shadow: 2px 2px 15px 0px rgba(0, 0, 0, .42);
+        align-items: center;
+        border: 1px solid black;
+    }
+    .navbar_ .menu {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        background-color: #ca4172;
+        height: 60vh;
+        right: -15em;
+        transition: all 1.4s;
+    }
+    .navbar_ .menu-toggle {
+        right: -1em;
+    }
+    .menu li {
+        margin-top: 3em;
+    }
+    .menu-bar {
+        display: block;
+        font-size: 2em;
+        color: #fff;
+        cursor: pointer;
+    }
+    /* Main Section */
+    .main {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+        height: 60vh;
+    }
+    .main img {
+        width: 10em;
+    }
+    .main h1 {
+        margin-top: -90px;
+    }
+    .main .button-content {
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+    }
+    /* About Section */
+    .about {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .about .about-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .about img {
+        width: 300px;
+        margin-top: 3em;
+        margin-bottom: -2em;
+    }
+    .about-info {
+        text-align: justify;
+    }
+
+    /* Support section */
+    .support{
+        flex-direction: column;
+        padding-left: 30px;
+    }
+
+    /* Banner section */
+    #banner{
+        height: 50vh;
+        background-position: center;
+    }
+
+    .banner .rating img{
+        width: 80px;
+
+    }
+
+    .banner .rating h2{
+        font-size:2em;
+    }
+
+    .banner .secundary-info{
+        display: none;
+    }
+
+    /* footer section */
+    .footer{
+        flex-direction: column-reverse;
+    }
+
+    .footer .quicklinks .menu{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer .social-networks{
+        margin-bottom: 2em;
+    }
+
+    .footer h3{
+        font-weight: lighter;
+        margin-top: 1em;
+        color: #f7b733;
+    }
+}
